@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+.bg-custom{
+    background-color: #FFF9F4;
+}
+.ff-bebasNeue{
+    font-family: 'Bebas Neue', cursive;
+}
+.ff-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.ib-custom{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.icon-size{
+    width: 78px;
+    height: 82px;
+}
+.h-effect{
+    transition: transform 2s;
+    z-index: 999;
+}
+.h-effect:hover{
+    transform: scale(1.02);
+    /* width: 600px; */
+}
